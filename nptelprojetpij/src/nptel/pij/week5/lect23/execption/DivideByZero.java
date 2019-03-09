@@ -10,7 +10,7 @@ class DivideByZero {
 	 catch(ArithmeticException e) {
 		 System.out.println("Exception occor while dividing by zero" + y);
 	 }
-	 return(a);
+	 return 1;
  }
 	
 	public static void main(String[] args) {
