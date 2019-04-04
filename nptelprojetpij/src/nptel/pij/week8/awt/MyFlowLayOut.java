@@ -1,6 +1,8 @@
 package nptel.pij.week8.awt;
 import java.awt.*;
 
+import javax.swing.JPanel;
+
 public class MyFlowLayOut {
 	Frame f;
 	
@@ -12,6 +14,8 @@ public class MyFlowLayOut {
 	 Button b3=new Button("3");
 	 Button b4=new Button("4");
 	 Button b5=new Button("5");
+	 JPanel myPanel=new JPanel();
+	 
 	 f.add(b1); 
 	 f.add(b2);
 	 f.add(b3);
@@ -19,6 +23,7 @@ public class MyFlowLayOut {
 	 f.add(b5);
 	 
 	 f.setLayout(new FlowLayout(FlowLayout.RIGHT));
+	 myPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
 	 //set the flow layout to right alignment
 	 f.setSize(400,400);
 	 f.setVisible(true);
